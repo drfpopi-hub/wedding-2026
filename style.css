@@ -1,0 +1,55 @@
+body{
+    margin:0;
+    font-family:'Cormorant Garamond',serif;
+    background:#f8f5f0;
+    color:#5a4b42;
+}
+
+.hero{
+    height:100vh;
+    background:url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80') center center/cover;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.overlay{
+    background:rgba(255,255,255,.75);
+    padding:50px;
+    border-radius:20px;
+    text-align:center;
+}
+
+h1{
+    font-family:'Great Vibes',cursive;
+    font-size:70px;
+    margin:0;
+}
+
+h2{
+    font-size:34px;
+    font-weight:400;
+}
+
+.button{
+    display:inline-block;
+    margin-top:25px;
+    padding:14px 35px;
+    background:#b79b74;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+    font-size:20px;
+}
+
+#invitation{
+    max-width:900px;
+    margin:auto;
+    padding:80px 30px;
+    text-align:center;
+    line-height:1.8;
+}
+
+h3{
+    font-size:42px;
+}
